@@ -9,4 +9,3 @@ export class AppComponent  {
   name = 'Angular';
 }
 
-//ssdsd
