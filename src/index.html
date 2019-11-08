@@ -1,0 +1,120 @@
+<my-app>loading</my-app>
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+<div class="header" id="topDiv">
+  <h1>Game Developing </h1>
+  <p>Could it be a career for you?</p>
+</div>
+
+<div id="navbar">
+    <font style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+      <a class="active" href="#topDiv">Top</a>
+      <a href="#div1">Development</a>
+      <a href="#div2">Game Engines</a>
+    </font>
+  </div>
+
+<div class="row">
+  <div class="leftcolumn">
+   
+    <div class="card">
+      <h2>Design</h2>
+      <h5>Designing, animation, graphics & visuals</h5>
+    
+     
+      
+      <ul> 
+          <li>Graphic Designer  </li>
+         <li>Animator</li> 
+         <li>Illustrator</li>
+        <li>Character Artist </li>
+        <li> Visual Effects Artist</li>
+         <li>Background Artist </li>
+        <li> Lead Designer</li>
+        <li> Content Designer</li>
+        <li> Texture Artist </li>
+         <li>Designer </li>
+         <li>Sound Designer</li>
+        <li>Web Designer </li>
+         <li>Level Designer </li>
+        <li> Concept Designer</li>
+ 
+    </div>
+
+ 
+ <div class="card" id="div1">
+      <h2>Development</h2>
+      <h5>Writing, audio, producing, testing & engineering</h5>
+     
+      <ul> 
+          <li>Modeler </li>
+         <li>Publication</li> 
+         <li>Document </li>
+        <li> Game Developer </li>
+        <li> Game Tester </li>
+         <li>Audio Worker </li>
+        <li> Multimedia Author </li>
+        <li> Quality Assurance </li>
+        <li> Specialist </li>
+         <li>Game Mechanic </li>
+         <li>Game Writer </li>
+        <li> Tester </li>
+         <li>Desktop Publishing </li>
+        <li> Game Producer</li>
+      </ul>
+
+    </div>
+    
+    <div class="card" id="div2">
+      <h3>Game Development Engines</h3>
+      <p>There are many different types of game engines used to create games.</p>
+      <ul> 
+          <li>Unity</li>
+          <li>Stencyl</li>
+          <li>Godot</li>
+          <li>Game maker Studio 1&2</li>
+          <li>Gamefroot</li>
+          <li>Flowlab</li>
+          <li>Blender</li>
+      </ul>
+    </div>
+  </div>
+ 
+     
+      
+        
+       
+      </div>
+     
+    </div>
+   
+     
+    </div>
+  </div>
+</div>
+
+ 
+</div>
+
+<script>
+    window.onscroll = function () { myFunction() };
+
+    let navbar = document.getElementById("navbar");
+    let sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+
+</body>
+</html>
